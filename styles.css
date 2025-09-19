@@ -54,7 +54,7 @@ table {
 
  html {
 	background-color: #6b8fe7;
-	padding: 40px;
+	padding: 20px;
  }
 
 body {
@@ -72,6 +72,11 @@ header {
 	font-family: Kavoon;
 	margin: 100px;
 	padding: 150px;
+}
+
+body div {
+	background-color: #ffff;
+	display: flexbox;
 }
 
 h1, h2 {
