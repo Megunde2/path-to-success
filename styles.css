@@ -54,10 +54,12 @@ table {
 
  html {
 	background-color: #6b8fe7;
+	padding: 40px;
  }
 
 body {
 	width: 400px;
+
 	display: flexbox;
 	justify-content:center;
 	text-align: center;
@@ -130,14 +132,18 @@ img {
 }
 
 /* IMPORTED FONTS */ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
-{
-    color: #6b8fe7;
 
+#link {
+	display: button;
+	box-shadow: #1E1E1E;
+	background-color:#ffff;
 }
 
 
 footer {
-
+	color: white;
+	font-size: smaller;
+	background-color: #484FB7;
 }
 
 Teal :#4CA7C0
