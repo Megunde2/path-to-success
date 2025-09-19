@@ -59,9 +59,8 @@ table {
 
 body {
 	width: 400px;
-	display: flexbox;
-	justify-content:center;
-	text-align: left;
+	display: flex;
+	align-content: center;
 	background-color: #484FB7;
 	
 }
@@ -76,7 +75,8 @@ header {
 
 body div {
 	background-color: #ffff;
-	display: flexbox;
+	display: flex;
+	gap: 1rem;
 }
 
 h1, h2 {
