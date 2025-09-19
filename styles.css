@@ -53,13 +53,18 @@ table {
 /* GLOBAL STYLES (mobile first/small) */
 
  body {
+	display: flexbox;
 	justify-content:center;
 	text-align: center;
 	background: #484FB7;
 	
 }
 
+header {
+	color:white;
+	background-color: #484FB7;
 
+}
 
  #menu {
 	display: block;
