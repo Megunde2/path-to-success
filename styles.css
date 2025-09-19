@@ -52,8 +52,26 @@ table {
 /* ROOT VARIABLES */
 /* GLOBAL STYLES (mobile first/small) */
 
+ body {
+	justify-content:center;
+	text-align: center;
+	background: #484FB7;
+	
+}
 
 
+
+ section #menu {
+	display: block;
+	background-color: #E9BB57;
+
+}
+
+#menu > ul {
+	color: #484FB7;
+	background-color: white;
+	display: block;
+}
 
 /* IMPORTED FONTS */ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
 {
