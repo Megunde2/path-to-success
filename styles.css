@@ -52,7 +52,12 @@ table {
 /* ROOT VARIABLES */
 /* GLOBAL STYLES (mobile first/small) */
 
- body {
+ html {
+	background-color: #6b8fe7;
+ }
+
+body {
+	width: 400px;
 	display: flexbox;
 	justify-content:center;
 	text-align: center;
@@ -63,27 +68,9 @@ table {
 header {
 	color:white;
 	background-color: #484FB7;
-
-}
-
- #menu {
-	display: block;
-	background-color: #E9BB57;
-	justify-content: center;
-	color: #484FB7;
-
-}
-
-#menu  ul {
-	color: #484FB7;
-	background-color: white;
-	display: block;
-}
-
-/* IMPORTED FONTS */ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
-{
-    color: #6b8fe7;
-
+	font-family: Kavoon;
+	margin: 100px 100px 100px 100px;
+	padding: 10%;
 }
 
 h1, h2 {
@@ -117,7 +104,41 @@ h4 {
     font-size: 1.15em;
 }
 
+img {
 
+	margin: 20px;
+
+}
+
+ #menu {
+	display: block;
+	background-color: #E9BB57;
+	justify-content: center;
+	color: #484FB7;
+
+}
+
+#menu h2 {
+	color: #1E1E1E;
+
+}
+
+#menu  ul {
+	color: #484FB7;
+	background-color: white;
+	display: block;
+}
+
+/* IMPORTED FONTS */ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+{
+    color: #6b8fe7;
+
+}
+
+
+footer {
+
+}
 
 Teal :#4CA7C0
 Purple: #484FB7
