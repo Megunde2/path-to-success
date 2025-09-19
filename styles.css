@@ -61,13 +61,15 @@ table {
 
 
 
- section #menu {
+ #menu {
 	display: block;
 	background-color: #E9BB57;
+	justify-content: center;
+	color: #484FB7;
 
 }
 
-#menu > ul {
+#menu  ul {
 	color: #484FB7;
 	background-color: white;
 	display: block;
