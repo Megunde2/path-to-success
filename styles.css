@@ -59,11 +59,10 @@ table {
 
 body {
 	width: 400px;
-
 	display: flexbox;
 	justify-content:center;
-	text-align: center;
-	background: #484FB7;
+	text-align: left;
+	background-color: #484FB7;
 	
 }
 
@@ -71,8 +70,8 @@ header {
 	color:white;
 	background-color: #484FB7;
 	font-family: Kavoon;
-	margin: 100px 100px 100px 100px;
-	padding: 10%;
+	margin: 100px;
+	padding: 150px;
 }
 
 h1, h2 {
@@ -112,7 +111,7 @@ img {
 
 }
 
- #menu {
+ section #menu {
 	display: block;
 	background-color: #E9BB57;
 	justify-content: center;
@@ -120,12 +119,12 @@ img {
 
 }
 
-#menu h2 {
+section #menu h2 {
 	color: #1E1E1E;
 
 }
 
-#menu  ul {
+section #menu  ul {
 	color: #484FB7;
 	background-color: white;
 	display: block;
@@ -133,7 +132,7 @@ img {
 
 /* IMPORTED FONTS */ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
 
-#link {
+ section #link {
 	display: button;
 	box-shadow: #1E1E1E;
 	background-color:#ffff;
