@@ -27,8 +27,11 @@ header {
 
 header p {
 	font-size: 1em;
+	font-style: italic;
 	font-family: inter;
 	color: #ffff;
+	margin: auto;
+
 }
 
 body {
@@ -54,8 +57,13 @@ h2 {
 	padding: 10px;
 }
 
+nav {
+	background-color: #E9BB57;
+}
+
 nav a {
 	display: grid;
+	text-transform: uppercase;
 	text-decoration: none;
 	font-family: inter;
 	font-weight: bold;
@@ -67,6 +75,7 @@ nav a {
 
 nav h2 {
     font-size: 1.5em;
+	text-transform: uppercase;
 	font-family: inter;
 	color: #1E1E1E;
 	font-weight: bold;
@@ -76,6 +85,7 @@ nav h2 {
 
 nav div {
 	background-color: #ffff;
+	border-radius: none;
 }
 
 p {
@@ -120,14 +130,6 @@ img {
 
 }
 
-ul {
-
-}
-
-
-li {
-
-}
 
 
 
@@ -137,7 +139,10 @@ li {
 	color: #ffff;
 }
 
-
+.First h2 {
+	margin: 10px;
+	color: #ffff;
+}
 	
 
 #Now {
@@ -166,8 +171,10 @@ footer {
 footer p {
 	color: #ffff;
 	display: inline-block;
+	text-decoration: none;
 	font-size: smaller;
 	margin: 20px;
+	padding:
 }
 
 
