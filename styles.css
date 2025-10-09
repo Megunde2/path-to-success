@@ -34,11 +34,12 @@ h1 {
     font-family: Kavoon;
 	color:white;
 	padding: 20px;
-	margin
+
 }
 
 nav {
 	display: grid;
+	text-decoration: none;
 	font-weight: bold;
 	background-color: #E9BB57;
 	justify-content: center;
@@ -46,9 +47,9 @@ nav {
 }
 
 
+
 h2 {
     font-size: 2em;
-	font-style: oblique;
 	color: #1E1E1E;
 
 }
@@ -68,10 +69,6 @@ nav h2 {
     font-size: 1.5em;
 }
 
-h2 {
-    font-size: 2em;
-	color: #ffff;
-}
 
 h3 {
     font-size: 1.5em;
