@@ -181,9 +181,15 @@ img {
 
 
 table {
+	background-color: #E9BB57;
+	align-self: center;
+	
 
 }
 
+tr {
+
+}
 
 
 #Now {
