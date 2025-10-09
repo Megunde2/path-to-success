@@ -21,12 +21,14 @@
 header {
 	color:white;
 	background-color: #484FB7;
+	padding:10px;
+
 }
 
 header p {
 	font-size: 1em;
+	font-family: inter;
 	color: #ffff;
-	margin-bottom: 10px;
 }
 
 body {
@@ -39,26 +41,9 @@ body {
 h1 {
     font-family: Kavoon;
 	color:white;
-	padding: 20px;
+	padding: 10px;
+	margin-bottom: 1px;
 
-}
-
-nav a {
-	display: grid;
-	text-decoration: none;
-	font-weight: bold;
-	background-color: #E9BB57;
-	justify-content: center;
-	color: #484FB7;
-}
-
-
-nav h2 {
-    font-size: 1.5em;
-	color: #1E1E1E;
-	font-weight: bold;
-	background-color: #E9BB57;
-	justify-content: center;
 }
 
 
@@ -69,9 +54,34 @@ h2 {
 	padding: 10px;
 }
 
+nav a {
+	display: grid;
+	text-decoration: none;
+	font-family: inter;
+	font-weight: bold;
+	background-color: #E9BB57;
+	justify-content: center;
+	color: #484FB7;
+}
+
+
+nav h2 {
+    font-size: 1.5em;
+	font-family: inter;
+	color: #1E1E1E;
+	font-weight: bold;
+	background-color: #E9BB57;
+	justify-content: center;
+}
+
+nav div {
+	background-color: #ffff;
+}
+
 p {
 	font-size: 1em;
 	color: #1E1E1E;
+	font-family: inter;
 }
 
 h1 {
@@ -91,6 +101,7 @@ h3 {
 
 h4 {
     font-size: 1.15em;
+	font-family: inter;
 	margin: auto;
 	color: #484FB7;
 }
@@ -130,9 +141,10 @@ li {
 	
 
 #Now {
-	display: inline-block;
 	text-align: center;
+	font-weight: bold;
 	text-decoration: none;
+	font-family: inter;
 	margin: 4px 2px;
 	padding: 10px 20px;
 	color: #1E1E1E;
@@ -146,14 +158,17 @@ li {
 
 footer {
 	color: white;
-	display: inline-block;
 	align-content: center;
-	font-size: smaller;
 	background-color: #484FB7;
 }
 
 
-
+footer p {
+	color: #ffff;
+	display: inline-block;
+	font-size: smaller;
+	margin: 20px;
+}
 
 
 
