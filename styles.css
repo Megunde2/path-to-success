@@ -64,7 +64,7 @@ nav {
 	padding: 10px;
 }
 
-nav .Menu {
+.Menu a {
 	display: grid;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -182,12 +182,13 @@ img {
 
 table {
 	background-color: #E9BB57;
-	align-self: center;
-	
+	align-content: center;
+
 
 }
 
-tr {
+td {
+	background-color: #ffff;
 
 }
 
