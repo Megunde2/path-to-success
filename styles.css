@@ -80,6 +80,8 @@ div {
 	background-color: #ffff;
 	padding: 100px;
 	margin: 100px;
+	border: 10px solid white;
+	border-radius: 2px;
 }
 
 h1, h2 {
@@ -128,10 +130,7 @@ img {
 
 }
 
- .menu h2 {
-	color: #1E1E1E;
 
-}
 
 .menu ul {
 	color: #484FB7;
