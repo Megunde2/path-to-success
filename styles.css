@@ -55,19 +55,20 @@ table {
  html {
 	background-color: #6b8fe7;
 	padding: 20px;
+	width: 400px;
 	display: flexbox;
+	margin: 100px;
 	justify-content: center;
  }
 
 body {
 	width: 400px;
 	background-color: #484FB7;
-	display: flexbox;
-	justify-content: center;
 }
 
 header {
 	color:white;
+	display: flex;
 	background-color: #484FB7;
 	font-family: Kavoon;
 	margin: 100px;
@@ -82,6 +83,7 @@ div {
 
 h1, h2 {
     font-family: Kavoon;
+	color:white;
 }
 
 h3, h4, p {
@@ -133,7 +135,10 @@ img {
 .menu ul {
 	color: #484FB7;
 	background-color: white;
-	display: block;
+	display: grid;
+	grid-template-rows: auto, auto, auto, auto;
+	gap: 1em;
+	text-align: center;
 }
 
 /* IMPORTED FONTS */ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
