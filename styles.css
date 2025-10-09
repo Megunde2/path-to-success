@@ -60,6 +60,7 @@ h2 {
 
 nav {
 	background-color: #E9BB57;
+	padding: 10px;
 }
 
 nav .Menu {
@@ -134,13 +135,33 @@ img {
 	background-color: #D9526F;
 	color: #ffff;
 	font-family: "Kavoon";
+	padding: 10px;
 }
+
+.box {
+	display: flexbox;
+}
+
 
 #person {
-	background-color: ;
+	background-color: teal;
+	font-weight: bolder;
 }
 
+#proven {
+	background-color: #6b8fe7;
+	font-weight: bolder;
+}
 
+#support {
+	background-color: #E9BB57;
+	font-weight: bolder;
+}
+
+#flexible {
+	background-color: #ffff;
+	font-weight: bolder;
+}
 
 .First {
 	background-color: #D9526F;
@@ -152,6 +173,12 @@ img {
 	color: #ffff;
 }
 	
+
+table {
+	
+}
+
+
 
 #Now {
 	text-align: center;
