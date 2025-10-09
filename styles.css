@@ -76,7 +76,7 @@ header {
 	padding: 150px;
 }
 
-div {
+section > div {
 	background-color: #ffff;
 	padding: 100px;
 	margin: 100px;
