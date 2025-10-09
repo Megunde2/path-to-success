@@ -21,7 +21,6 @@
 header {
 	color:white;
 	background-color: #484FB7;
-	font-family: Kavoon;
 }
 
 body {
@@ -30,13 +29,6 @@ body {
 	background-color: #484FB7;
 }
 
-section div {
-	background-color: #ffff;
-	padding: 100px;
-	margin: 100px;
-	border: 10px solid white;
-	border-radius: 2px;
-}
 
 h1 {
     font-family: Kavoon;
@@ -60,7 +52,8 @@ h2 {
 }
 
 p {
-	display: block;
+	padding: 20px;
+	margin: 40px;
 	font-size: 1em;
 }
 
@@ -87,6 +80,15 @@ h4 {
     font-size: 1.15em;
 }
 
+
+div {
+	background-color: #ffff;
+	padding: 100px;
+	margin: 100px;
+	border: 10px solid white;
+	border-radius: 2px;
+}
+
 img {
 	padding: 10px;
 	margin: 20px;
@@ -104,6 +106,8 @@ img {
 
 footer {
 	color: white;
+	display: flexbox;
+	align-content: center;
 	font-size: smaller;
 	background-color: #484FB7;
 }
