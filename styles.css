@@ -55,12 +55,15 @@ table {
  html {
 	background-color: #6b8fe7;
 	padding: 20px;
+	display: flexbox;
+	justify-content: center;
  }
 
 body {
 	width: 400px;
 	background-color: #484FB7;
-	
+	display: flexbox;
+	justify-content: center;
 }
 
 header {
@@ -109,7 +112,7 @@ h4 {
 }
 
 img {
-
+	padding: 10px;
 	margin: 20px;
 
 }
@@ -127,7 +130,7 @@ img {
 
 }
 
-.menu  ul {
+.menu ul {
 	color: #484FB7;
 	background-color: white;
 	display: block;
