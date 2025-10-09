@@ -37,9 +37,10 @@ header p {
 
 body {
 	width: 400px;
-	margin: 500px;
+	margin: 10px 500px;
 	background-color: #484FB7;
 }
+
 
 
 h1 {
@@ -172,10 +173,15 @@ img {
 	margin: 10px;
 	color: #ffff;
 }
-	
+
+
+.First p {
+	color: #ffff;
+}
+
 
 table {
-	
+
 }
 
 
@@ -195,6 +201,12 @@ table {
 	background-color:#ffff;
 }
 
+ #Now a {
+	text-decoration: none;
+	color: #1E1E1E;
+	font-weight: bold;
+	text-transform: uppercase;
+}
 
 footer {
 	color: white;
