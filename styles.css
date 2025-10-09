@@ -64,6 +64,9 @@ nav h2 {
 
 h2 {
     font-size: 2em;
+	font-family: "Kavoon";
+	color: #ffff;
+	padding: 10px;
 }
 
 p {
@@ -98,12 +101,25 @@ div {
 	padding: 15px;
 	margin: 15px;
 	border: none;
+	border-radius: 10px;
 }
 
 img {
 	padding: 10px;
 
 }
+
+ul {
+
+}
+
+
+li {
+
+}
+
+
+
 
 .First {
 	background-color: #D9526F;
@@ -116,6 +132,7 @@ img {
 #Now {
 	display: inline-block;
 	text-align: center;
+	text-decoration: none;
 	margin: 4px 2px;
 	padding: 10px 20px;
 	color: #1E1E1E;
