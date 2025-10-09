@@ -25,6 +25,7 @@ header {
 
 header p {
 	font-size: 1em;
+	color: #ffff;
 	margin-bottom: 10px;
 }
 
@@ -66,7 +67,6 @@ h2 {
 }
 
 p {
-	margin: 40px;
 	font-size: 1em;
 	color: #1E1E1E;
 }
@@ -80,11 +80,15 @@ h1 {
 
 h3 {
     font-size: 1.5em;
+	margin: 5px;
+	padding:5px;
     color:#E9BB57; 
+	font-family: inter;
 }
 
 h4 {
     font-size: 1.15em;
+	margin: auto;
 	color: #484FB7;
 }
 
@@ -92,14 +96,12 @@ h4 {
 div {
 	background-color: #ffff;
 	padding: 15px;
-	margin: 20px;
+	margin: 15px;
 	border: none;
-	border-radius: 20px;
 }
 
 img {
 	padding: 10px;
-	margin: 20px;
 
 }
 
