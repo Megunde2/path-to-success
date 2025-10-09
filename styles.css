@@ -38,8 +38,8 @@ h1 {
 }
 
 nav {
-	display: block;
-	font-style: oblique;
+	display: grid;
+	font-weight: bold;
 	background-color: #E9BB57;
 	justify-content: center;
 	color: #484FB7;
@@ -54,9 +54,9 @@ h2 {
 }
 
 p {
-	padding: 20px;
 	margin: 40px;
 	font-size: 1em;
+	color: #1E1E1E;
 }
 
 h1 {
@@ -70,7 +70,7 @@ nav h2 {
 
 h2 {
     font-size: 2em;
-	color: #1E1E1E;
+	color: #ffff;
 }
 
 h3 {
@@ -80,6 +80,7 @@ h3 {
 
 h4 {
     font-size: 1.15em;
+	color: #484FB7;
 }
 
 
