@@ -17,16 +17,17 @@
 	background-color: #6b8fe7;
  }
 
-body {
-	width: 400px;
-	margin: 500px;
-	background-color: #484FB7;
-}
 
 header {
 	color:white;
 	background-color: #484FB7;
 	font-family: Kavoon;
+}
+
+body {
+	width: 400px;
+	margin: 500px;
+	background-color: #484FB7;
 }
 
 section div {
@@ -37,9 +38,25 @@ section div {
 	border-radius: 2px;
 }
 
-h1, h2 {
+h1 {
     font-family: Kavoon;
 	color:white;
+}
+
+nav {
+	display: block;
+	font-style: oblique;
+	background-color: #E9BB57;
+	justify-content: center;
+	color: #484FB7;
+}
+
+
+h2 {
+    font-size: 2em;
+	font-style: oblique;
+	color: #1E1E1E;
+
 }
 
 h3, h4, p {
@@ -57,12 +74,12 @@ nav h2 {
 
 h2 {
     font-size: 2em;
-    color:#E9BB57 ;
+	color: #1E1E1E;
 }
 
 h3 {
     font-size: 1.5em;
-    color:#6b8fe7; 
+    color:#E9BB57; 
 }
 
 h4 {
@@ -73,25 +90,6 @@ img {
 	padding: 10px;
 	margin: 20px;
 
-}
-
- .menu {
-	display: block;
-	background-color: #E9BB57;
-	justify-content: center;
-	color: #484FB7;
-
-}
-
-
-
-.menu ul {
-	color: #484FB7;
-	background-color: white;
-	display: grid;
-	grid-template-rows: auto, auto, auto, auto;
-	gap: 1em;
-	text-align: center;
 }
 
 
