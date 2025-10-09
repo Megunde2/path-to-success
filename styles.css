@@ -27,6 +27,7 @@ header {
 
 header p {
 	font-size: 1em;
+	text-align: center;
 	font-style: italic;
 	font-family: inter;
 	color: #ffff;
@@ -61,7 +62,7 @@ nav {
 	background-color: #E9BB57;
 }
 
-nav a {
+nav .Menu {
 	display: grid;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -76,6 +77,8 @@ nav a {
 nav h2 {
     font-size: 1.5em;
 	text-transform: uppercase;
+	font-style: italic;
+	text-align: center;
 	font-family: inter;
 	color: #1E1E1E;
 	font-weight: bold;
