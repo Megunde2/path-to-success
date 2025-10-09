@@ -68,7 +68,8 @@ nav .Menu {
 	text-decoration: none;
 	font-family: inter;
 	font-weight: bold;
-	background-color: #E9BB57;
+	background-color: #ffff;
+	border-radius: none;
 	justify-content: center;
 	color: #484FB7;
 }
@@ -86,10 +87,6 @@ nav h2 {
 	justify-content: center;
 }
 
-nav div {
-	background-color: #ffff;
-	border-radius: none;
-}
 
 p {
 	font-size: 1em;
