@@ -23,6 +23,11 @@ header {
 	background-color: #484FB7;
 }
 
+header p {
+	font-size: 1em;
+	margin-bottom: 10px;
+}
+
 body {
 	width: 400px;
 	margin: 500px;
@@ -37,7 +42,7 @@ h1 {
 
 }
 
-nav {
+nav a {
 	display: grid;
 	text-decoration: none;
 	font-weight: bold;
@@ -47,11 +52,17 @@ nav {
 }
 
 
+nav h2 {
+    font-size: 1.5em;
+	color: #1E1E1E;
+	font-weight: bold;
+	background-color: #E9BB57;
+	justify-content: center;
+}
+
 
 h2 {
     font-size: 2em;
-	color: #1E1E1E;
-
 }
 
 p {
@@ -65,9 +76,6 @@ h1 {
     color: #ffff;
 }
 
-nav h2 {
-    font-size: 1.5em;
-}
 
 
 h3 {
@@ -83,8 +91,8 @@ h4 {
 
 div {
 	background-color: #ffff;
-	padding: 100px;
-	margin: 100px;
+	padding: 15px;
+	margin: 20px;
 	border: none;
 	border-radius: 20px;
 }
