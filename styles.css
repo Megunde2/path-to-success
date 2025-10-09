@@ -59,7 +59,7 @@ table {
 
 body {
 	width: 400px;
-	display: flex;
+	display: flexbox;
 	align-content: center;
 	background-color: #484FB7;
 	
@@ -116,7 +116,7 @@ img {
 
 }
 
- section #menu {
+ #menu {
 	display: block;
 	background-color: #E9BB57;
 	justify-content: center;
@@ -124,12 +124,12 @@ img {
 
 }
 
-section #menu h2 {
+ #menu h2 {
 	color: #1E1E1E;
 
 }
 
-section #menu  ul {
+#menu  ul {
 	color: #484FB7;
 	background-color: white;
 	display: block;
@@ -137,7 +137,7 @@ section #menu  ul {
 
 /* IMPORTED FONTS */ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
 
- section #link {
+ #link {
 	display: button;
 	box-shadow: #1E1E1E;
 	background-color:#ffff;
