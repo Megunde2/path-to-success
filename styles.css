@@ -35,6 +35,10 @@ header p {
 
 }
 
+a {
+	text-decoration: none;
+}
+
 body {
 	width: 400px;
 	margin: 10px 500px;
@@ -182,9 +186,6 @@ img {
 
 table {
 	background-color: #E9BB57;
-	align-content: center;
-
-
 }
 
 td {
@@ -201,9 +202,7 @@ td {
 	margin: 4px 2px;
 	padding: 10px 20px;
 	color: #1E1E1E;
-	border: none;
-	border-radius: 20px;
-	box-shadow: #1E1E1E;
+	border-radius: 15px;
 	cursor: pointer;
 	background-color:#ffff;
 }
